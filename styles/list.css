@@ -1,6 +1,22 @@
+
 #hotel1{
     height: 200px;
     width: 250px;
+}
+.div0{
+    height: auto;
+    width: 40%;
+    background-color: rgb(132, 136,139);
+}
+.div1{
+    height: auto;
+    width: 40%;
+    background-color: rgb(132, 136,139);
+}
+.div2{
+    height: auto;
+    width: 40%;
+    background-color: rgb(132, 136,139);
 }
 #hotel2{
     height: 200px;
@@ -13,4 +29,10 @@
 #lobo{
     height: 60px;
     width: 60px;
+}
+
+footer{
+    background-color: rosybrown;
+    top: 100%;
+    
 }

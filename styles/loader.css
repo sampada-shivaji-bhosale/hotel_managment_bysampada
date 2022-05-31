@@ -1,0 +1,14 @@
+.load1{
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+.load1::after{
+    content: "";
+    width: 70px;
+    height: 70px;
+    border: 12px solid #f3f3f3;
+    border-top-color: #444444;
+    border-radius: 50%;
+    align-self: center;
+}

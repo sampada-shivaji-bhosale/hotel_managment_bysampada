@@ -2,21 +2,33 @@
     height: 60px;
     width: 60px;
 }
-#f1{
-    height: 20px;
-    width: 22px;
-}
-#i1{
-    height: 20px;
-    width: 22px;
-}
-#t1{
-    height: 20px;
-    width: 22px;
-}
-#scro{
+
+body{
     min-height: 100%;
     min-width: 100%;
+}
+#marg{
+    margin: 2%;
+}
+.div1{
+    /*height: 20px;*/
+    width: 50%;
+    background-color: rgb(132, 136, 139);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 25%;
+}
+#outline{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-width: 1%;
+    border-style: solid;
+    border-radius: 5%;
+    border-color: black;
+
+
 }
 #hotel1{
     height: 500px;
