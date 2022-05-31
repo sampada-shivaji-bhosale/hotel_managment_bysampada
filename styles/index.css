@@ -1,3 +1,36 @@
-.contaner{
-    
+#schl{
+    height: 60px;
+    width: 60px;
+}
+#delih{
+    height: 150px;
+    width: 150px;
+}
+#goa{
+    height: 150px;
+    width: 150px;
+}
+#charm{
+    height: 150px;
+    width: 150px;
+}
+#kolt{
+    height: 150px;
+    width: 150px;
+}
+#f1{
+    height: 20px;
+    width: 22px;
+}
+#i1{
+    height: 20px;
+    width: 22px;
+}
+#t1{
+    height: 20px;
+    width: 22px;
+}
+#scro{
+    min-height: 100%;
+    min-width: 100%;
 }
