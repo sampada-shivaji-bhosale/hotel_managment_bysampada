@@ -1,8 +1,31 @@
 .com{
     background-color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+#lobo{
+    height: 66px;
+    width: 60px;
 }
 header{
     background-color: rosybrown;
+    position: sticky;
+    top: 0;
+}
+#login{
+    vertical-align: 125%;
+    margin-left: 90%;
+    color: black;
+    font-style: initial;
+    text-decoration: none;
+
+}
+#con{
+    vertical-align: 125%;
+    color: black;
+    font-style: normal;
+    bottom: 50%;
+    text-decoration: none;
 }
 #f1{
     height: 20px;
@@ -16,8 +39,16 @@ header{
     height: 20px;
     width: 22px;
 }
+.foot{
+    margin-left: 40%;
+}
+#webimg{
+    margin-left: 92%;
+}
 footer{
     background-color: rosybrown;
-    top: 100%;
+    position: sticky;
+    position: relative;
+    bottom: 0;
     
 }
