@@ -14,10 +14,43 @@ body{
     margin-left: 4%;
     margin-right: 4%;
 }
+.div1{
+    display: flex;
+    border: 2px solid gray;
+    padding-left: 10%;
+    padding-right: 3%;
+}
+#info{
+
+    display: flex;
+    flex-direction: column;
+
+}
+input{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+#id2{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 10%;
+
+}
+#book{
+    margin-left: 50%;
+    margin-top: 10%;
+}
+#h{
+    font-family: cursive;
+}
 #hotel1{
-    height: 500px;
-    width: 500px;
+    height: 90%;
+    width: 50%;
     margin-top: 2%;
     margin-left: 4%;
     margin-right: 4%;
+    margin-bottom: 2%;
 }

@@ -6,6 +6,7 @@
 #lobo{
     height: 66px;
     width: 60px;
+    margin-left: 2%;
 }
 header{
     background-color: rosybrown;
@@ -13,42 +14,61 @@ header{
     top: 0;
 }
 #login{
+    margin-left: 88%;
     vertical-align: 125%;
-    margin-left: 90%;
     color: black;
     font-style: initial;
     text-decoration: none;
 
 }
 #con{
-    vertical-align: 125%;
+    /*vertical-align: 125%;*/
     color: black;
-    font-style: normal;
-    bottom: 50%;
     text-decoration: none;
+    margin-left: 20px;
+    display: flex;
 }
 #f1{
     height: 20px;
     width: 22px;
+    padding-right: 6px;
 }
 #i1{
     height: 20px;
     width: 22px;
+    padding-right: 6px;
 }
 #t1{
     height: 20px;
     width: 22px;
+    padding-right: 6px;
 }
+
 .foot{
-    margin-left: 40%;
+    text-align: center;
+    color: black;
+    margin-left: 400px;
+    display: flex;
+
+    
 }
-#webimg{
-    margin-left: 92%;
+#conta{
+    display: flex;
 }
+.webimg{
+    display: flex;
+    margin-left: 450px;
+}
+
 footer{
     background-color: rosybrown;
     position: sticky;
-    position: relative;
     bottom: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+
     
 }

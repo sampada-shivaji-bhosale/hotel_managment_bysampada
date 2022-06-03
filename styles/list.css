@@ -3,49 +3,51 @@
     height: 200px;
     width: 250px;
 }
-/*.dis{
-    display: inline-block;
-}*/
+.sec{
+    display: flex;
+
+}
 .div0{
     height: auto;
     width: 40%;
-    background-color: rgb(132, 136,139);
+    background-color: rgb(193, 196, 199);
     float: left;
     margin-right: 40px;
     margin-left: 40px;
     margin-top: 10px;
     margin-bottom: 25px;
-    text-decoration-skip: underline;
+    text-decoration: none;
     font:bold;
+    display: flex;
 
 }
 
-#hotel2{
-    height: 200px;
-    width: 250px;
+#text{
+    margin-left: 5%;
+    
 }
-#hotel3{
-    margin-left: 30px;
-    height: 200px;
-    width: 250px;
+h3{
+    text-decoration: none;
+    color: black;
 }
-#lobo{
-    height: 60px;
-    width: 60px;
+#id1{
+    text-decoration: none;
 }
 #map{
     margin-left: 2%;
     color: black;
     font: bold;
+    text-decoration: none;
 }
 #list{
     margin-left: 35%;
     color: black;
     font: bold;
+    text-decoration: none;
 }
-footer{
+/*footer{
     background-color: rosybrown;
     position: sticky;
     bottom: 0;
     
-}
+}*/
