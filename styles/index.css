@@ -25,7 +25,20 @@
     border-radius: 25%;
     margin-left: 110px;
     box-shadow: 10px 10px 10px 10px grey;
+    position: relative;
     
+}
+/*#text_t{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    background: gray;
+    color: white;
+}*/
+#pict:hover{
+    background-color: darkslategray;
 }
 
 
