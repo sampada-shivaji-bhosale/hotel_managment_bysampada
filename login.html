@@ -1,12 +1,60 @@
 <head>
     <title>Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        #for1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        #f1{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
+
 <body>
     <div>
-            <label for="name">Username :</label>
-            <input type="text" name ="myname" placeholder="Enter your name "></br>
-            <label for="password">password</label>
-            <input type="password" name="mypassword" placeholder="Enter your password"></br>
-            <a href="index.html"><button>Login</button></a>
+        
+
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Login</button>
+
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">login form</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <section id="for1">
+                                <div id="f1">
+                                    <label for="name" >Username :</label>
+                                    <input type="text" name="myname" placeholder="Enter your name ">
+                                </div>
+                                <div>
+                                    <label for="password">password</label>
+                                    <input type="password" name="mypassword" placeholder="Enter your password"></br>
+                                </div>
+                                </section>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-info"><a href="index.html">Login</a></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
 </body>

@@ -42,6 +42,11 @@ input{
 #book{
     margin-left: 50%;
     margin-top: 10%;
+    text-decoration-color: antiquewhite;
+}
+#book:hover{
+    background-color: rgb(25, 114, 25);
+    border-color: beige;
 }
 #h{
     font-family: cursive;

@@ -2,43 +2,47 @@
     <title>Detail</title>
     <link rel="stylesheet" href="styles/detail.css">
     <link href="styles/common.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
+
 <body class="com">
     <header>
         <a href="index.html"><img id="lobo" src="assests/images/logo.png" alt="logo"></a>
-        <a href="login.html" target="_blank" id="login">Login</a>
+        <button type="button" class="btn btn-info" id="login"><a href="login.html">Login</a></button>
     </header>
     <div id="div_m">
         <section class="div1">
             <div>
-                <img id="hotel1"  src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
-            </div>   
-            <div >
+                <img id="hotel1" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+            </div>
+            <div>
                 <div id="id2">
-                <label for="adult" id="info">Adults: </label>
-                <input type="number" name="adult" >
+                    <label for="adult" id="info">Adults: </label>
+                    <input type="number" name="adult">
                 </div>
                 <div id="id2">
-                <label for="name" id="info">Name: </label>
-                <input type="text" name="Name" >
+                    <label for="name" id="info">Name: </label>
+                    <input type="text" name="Name">
                 </div>
                 <div id="id2">
-                <label for="formdata" id="info">Form Date: </label>
-                <input type="date" name="date" >
+                    <label for="formdata" id="info">Form Date: </label>
+                    <input type="date" name="date">
                 </div>
                 <div id="id2">
-                <label for="todate" id="info">To Date: </label>
-                <input type="date" name="Tdate" >
+                    <label for="todate" id="info">To Date: </label>
+                    <input type="date" name="Tdate">
                 </div>
                 <div id="id2">
-                <label for="total"id="info" >Total: </label>
-                <input type="" name="total" >
+                    <label for="total" id="info">Total: </label>
+                    <input type="" name="total">
                 </div>
-                <a id="book" href="payment.html"><button>Book Now</button></a>
+            <button type="button" id="book" ><a  href="payment.html">Book Now</a></button>
             </div>
         </section>
         <div>
-            <h3 id="h">Radisson Blu Hotel</h3>
+            <h3 id="h ">Radisson Blu Hotel</h3>
         </div>
         <div id="h">RATING</div>
         </br>
@@ -54,18 +58,27 @@
             <li>Pool</li>
         </ul>
         <div id="h">DESCRIPTIONS</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pellentesque congue iaculis. Mauris dictum, risus et congue rutrum, velit nibh viverra dolor, vel eleifend sapien metus in nisi. Nullam sit amet pulvinar ligula, quis convallis justo. Nullam sit amet elementum tellus, eget malesuada elit. Vivamus fringilla lorem sit amet blandit tincidunt. Suspendisse nulla lorem, scelerisque eu imperdiet id, tincidunt viverra lectus. Fusce id sagittis lacus. Nullam tortor turpis, ornare quis auctor vel, placerat ac lorem. Pellentesque in turpis venenatis, congue ante luctus, sagittis ipsum. In semper iaculis justo, et molestie arcu tristique at. Vestibulum fermentum imperdiet leo sit amet finibus. Sed euismod turpis nunc, id venenatis lorem viverra in. Cras volutpat turpis odio, et faucibus velit varius in. Proin nec posuere lorem, in ultrices quam.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pellentesque congue iaculis. Mauris dictum,
+            risus et congue rutrum, velit nibh viverra dolor, vel eleifend sapien metus in nisi. Nullam sit amet
+            pulvinar ligula, quis convallis justo. Nullam sit amet elementum tellus, eget malesuada elit. Vivamus
+            fringilla lorem sit amet blandit tincidunt. Suspendisse nulla lorem, scelerisque eu imperdiet id, tincidunt
+            viverra lectus. Fusce id sagittis lacus. Nullam tortor turpis, ornare quis auctor vel, placerat ac lorem.
+            Pellentesque in turpis venenatis, congue ante luctus, sagittis ipsum. In semper iaculis justo, et molestie
+            arcu tristique at. Vestibulum fermentum imperdiet leo sit amet finibus. Sed euismod turpis nunc, id
+            venenatis lorem viverra in. Cras volutpat turpis odio, et faucibus velit varius in. Proin nec posuere lorem,
+            in ultrices quam.</p>
     </div>
-    
     <footer>
         <section id="conta">
-        <div><a href="contact.html" id="con">Contact Us</a></div>
-        <div class="foot">&copy;2020 ROOM SEARCH PVT LTD</div>
-        <div class="webimg">
-            <a href="https://www.facebook.com"><img src="assests/images/facebook.png" id="f1"></a>
-            <a href="https://www.instagram.com"><img src="assests/images/instagram.png" id="i1"></a>
-            <a href="https://www.twitter.com"><img  src="assests/images/twitter.png" id="t1"></a>
-        </div>
+            <div><button type="button" class="btn btn-info"><a href="contact.html" id="con">Contact Us</a></button>
+            </div>
+            <div class="foot">&copy;2020 ROOM SEARCH PVT LTD</div>
+            <div class="webimg">
+                <a href="https://www.facebook.com"><img id="f1" src="assests/images/facebook.png"></a>
+                <a href="https://www.instagram.com"><img id="i1" src="assests/images/instagram.png"></a>
+                <a href="https://www.twitter.com"><img id="t1" src="assests/images/twitter.png"></a>
+            </div>
         </section>
     </footer>
+
 </body>

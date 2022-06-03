@@ -3,20 +3,26 @@
     margin: 0;
     padding: 0;
 }
+/*#head{
+    display: flex;
+    justify-content: center;
+}*/
 #lobo{
     height: 66px;
     width: 60px;
     margin-left: 2%;
+    justify-content: center;
 }
 header{
     background-color: rosybrown;
     position: sticky;
     top: 0;
 }
+
 #login{
     margin-left: 88%;
+    
     vertical-align: 125%;
-    color: black;
     font-style: initial;
     text-decoration: none;
 
@@ -27,6 +33,7 @@ header{
     text-decoration: none;
     margin-left: 20px;
     display: flex;
+
 }
 #f1{
     height: 20px;

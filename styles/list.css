@@ -21,6 +21,10 @@
     display: flex;
 
 }
+.div0:hover{
+    background-color: rosybrown;
+
+}
 
 #text{
     margin-left: 5%;
@@ -32,18 +36,25 @@ h3{
 }
 #id1{
     text-decoration: none;
+
 }
 #map{
     margin-left: 2%;
-    color: black;
+    text-emphasis-color: black;
     font: bold;
     text-decoration: none;
+}
+#map:hover{
+    background-color: aqua;
 }
 #list{
     margin-left: 35%;
     color: black;
     font: bold;
     text-decoration: none;
+}
+#list:hover{
+    background-color: aqua;
 }
 /*footer{
     background-color: rosybrown;

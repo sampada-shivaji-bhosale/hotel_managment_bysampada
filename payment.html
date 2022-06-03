@@ -2,11 +2,14 @@
     <title>Payment</title>
     <link rel="stylesheet" href="styles/payment.css">
     <link href="styles/common.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body class="com">
     <header>
         <a href="index.html"><img id="lobo" src="assests/images/logo.png" alt="logo"></a>
-        <a href="login.html" target="_blank" id="login">Login</a>
+        <button type="button" class="btn btn-info" id="login"><a href="login.html" >Login</a></button>
     </header>
     <section id="marg">
         <section class="div1">
@@ -32,14 +35,14 @@
                 </div> 
                 <div id="pay" >
                 <p>
-                <a id="line" class="pays" href="payment.html" >Pay Now</a>
+                <button type="button" class="btn btn-success" disabled><a id="line" class="pays" href="payment.html" >Pay Now</a></button>
                 </p>
                 </div>
         </section>
     </section>
     <footer>
             <section id="conta">
-            <div><a href="contact.html" id="con">Contact Us</a></div>
+            <div><button type="button" class="btn btn-info" ><a href="contact.html" id="con">Contact Us</a></button></div>
             <div class="foot">&copy;2020 ROOM SEARCH PVT LTD</div>
             <div class="webimg">
             <a href="https://www.facebook.com"><img id="f1" src="assests/images/facebook.png"></a>

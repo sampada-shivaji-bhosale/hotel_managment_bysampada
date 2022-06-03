@@ -2,17 +2,20 @@
     <title>List</title>
     <link rel="stylesheet" href="styles/list.css">
     <link href="styles/common.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body class="com">
+    
     <header>
         <a href="index.html"><img id="lobo" src="assests/images/logo.png" alt="logo"></a>
-    
-        <a href="login.html" target="_blank" id="login">Login</a>
+        <button type="button" class="btn btn-info" id="login"><a href="login.html">Login</a></button>
     </header>
     <div class="dis">
         <ul>
-            <a href="" id="list">List View</a>
-            <a href="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" id="map">Map View</a>
+            <button type="button" class="btn btn-light" id="list"><a href="list.html" >List View</a></button>
+            <button type="button" class="btn btn-light" id="map"><a href="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png">Map View</a></button>
         </ul>
         <section class="sec">
             <div class="div0">
@@ -51,9 +54,10 @@
             </div>
         </section>
     </div>
+    
     <footer>
         <section id="conta">
-        <div><a href="contact.html" id="con">Contact Us</a></div>
+        <div><button type="button" class="btn btn-info" ><a href="contact.html" id="con">Contact Us</a></button></div>
         <div class="foot">&copy;2020 ROOM SEARCH PVT LTD</div>
         <div class="webimg">
         <a href="https://www.facebook.com"><img id="f1" src="assests/images/facebook.png"></a>
@@ -61,5 +65,5 @@
         <a href="https://www.twitter.com"><img id="t1" src="assests/images/twitter.png"></a>
         </div>
         </section>
-    </footer>
+</footer>
 </body>

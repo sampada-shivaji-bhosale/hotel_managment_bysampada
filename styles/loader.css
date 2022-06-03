@@ -1,14 +1,21 @@
 .load1{
+    margin-top: 25%;
     display: flex;
     justify-content: center;
-    vertical-align: middle;
 }
 .load1::after{
     content: "";
     width: 70px;
     height: 70px;
     border: 12px solid #f3f3f3;
-    border-top-color: #444444;
+    border-top-color: hsl(0, 0%, 27%);
     border-radius: 50%;
-    align-self: center;
+    animation: load1 1s linear  infinite;
+}
+@keyframes load1{
+       to{ transform: rotate(1turn);
+}
+}
+#if{
+    margin-left: 50%;
 }
