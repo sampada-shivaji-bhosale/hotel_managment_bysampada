@@ -3,15 +3,11 @@
     margin: 0;
     padding: 0;
 }
-/*#head{
-    display: flex;
-    justify-content: center;
-}*/
+
 #lobo{
     height: 66px;
     width: 60px;
-    margin-left: 2%;
-    justify-content: center;
+    justify-content: flex-start;
 }
 header{
     background-color: rosybrown;
@@ -20,11 +16,10 @@ header{
 }
 
 #login{
-    margin-left: 88%;
-    
-    vertical-align: 125%;
-    font-style: initial;
     text-decoration: none;
+    margin-top: 0.5%;
+    align-items: center;
+    margin-left: 90%;
 
 }
 #con{
