@@ -19,8 +19,8 @@ https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/fc/agra.jpg
 Jaipur:
 https://media-cdn.tripadvisor.com/media/photo-s/10/a3/3b/8a/screenshot-2017-09-12.jpg
 
-Bengaluru:
-https://media-cdn.tripadvisor.com/media/photo-s/0c/d2/2f/7a/palace-from-the-outside.jpg
+Bengaluru:https://media-cdn.tripadvisor.com/media/photo-s/0c/d2/2f/7a/palace-from-the-outside.jpg
+
 
 Background Image:
 https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg
